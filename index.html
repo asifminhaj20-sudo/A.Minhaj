@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Executive HR Portfolio | Strategic People Operations</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#f0fdfa',
+                            100: '#ccfbf1',
+                            500: '#14b8a6',
+                            600: '#0d9488',
+                            800: '#115e59',
+                            900: '#134e4a',
+                        },
+                        navy: {
+                            800: '#1e293b',
+                            900: '#0f172a',
+                            950: '#020617',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-brand-500 selection:text-white">
+
+    <!-- Navigation Bar -->
+    <nav class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-200">
+        <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+            <a href="#" class="font-bold text-xl text-navy-900 tracking-tight flex items-center gap-2">
+                <span class="w-8 h-8 rounded-lg bg-brand-600 text-white flex items-center justify-center font-bold text-sm">HR</span>
+                <span>[Your Name]</span>
+            </a>
+            <div class="hidden md:flex items-center space-x-8 text-sm font-medium text-slate-600">
+                <a href="#about" class="hover:text-brand-600 transition">About</a>
+                <a href="#competencies" class="hover:text-brand-600 transition">Competencies</a>
+                <a href="#metrics" class="hover:text-brand-600 transition">Business Impact</a>
+                <a href="#casestudies" class="hover:text-brand-600 transition">Case Studies</a>
+                <a href="#tech" class="hover:text-brand-600 transition">Tools & Certs</a>
+                <a href="#contact" class="px-4 py-2 rounded-lg bg-navy-900 text-white hover:bg-brand-600 transition shadow-sm">Contact Me</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="relative bg-gradient-to-b from-slate-100 via-white to-slate-50 pt-20 pb-28 border-b border-slate-200 overflow-hidden">
+        <div class="max-w-6xl mx-auto px-6 relative z-10">
+            <div class="max-w-3xl">
+                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-50 border border-brand-100 text-brand-800 text-xs font-semibold uppercase tracking-wider mb-6">
+                    <span class="w-2 h-2 rounded-full bg-brand-500 animate-pulse"></span>
+                    Available for Strategic HR Leadership Roles
+                </div>
+                <h1 class="text-4xl md:text-6xl font-extrabold text-navy-950 tracking-tight leading-tight mb-6">
+                    Aligning Human Capital with <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-600 to-teal-500">Commercial Strategy.</span>
+                </h1>
+                <p class="text-lg md:text-xl text-slate-600 leading-relaxed mb-8">
+                    Senior Human Resources Business Partner & People Operations Leader with 10+ years specializing in organizational scaling, performance architecture, and high-retention culture engineering.
+                </p>
+                <div class="flex flex-wrap gap-4 items-center">
+                    <a href="#casestudies" class="px-6 py-3.5 rounded-lg bg-brand-600 hover:bg-brand-500 text-white font-medium shadow-md transition flex items-center gap-2">
+                        <span>Explore Case Studies</span>
+                        <i class="fa-solid fa-arrow-right text-xs"></i>
+                    </a>
+                    <a href="#contact" class="px-6 py-3.5 rounded-lg border border-slate-300 hover:border-slate-400 bg-white text-slate-700 font-medium transition shadow-sm">
+                        Request Full CV
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Key Metrics Highlight Section -->
+    <section id="metrics" class="py-16 bg-navy-900 text-white">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center divide-y md:divide-y-0 md:divide-x divide-slate-800">
+                <div class="pt-4 md:pt-0">
+                    <div class="text-4xl md:text-5xl font-black text-brand-500 mb-2">-38%</div>
+                    <div class="text-sm font-medium text-slate-400 uppercase tracking-wide">Voluntary Turnover</div>
+                </div>
+                <div class="pt-4 md:pt-0">
+                    <div class="text-4xl md:text-5xl font-black text-white mb-2">+58 pts</div>
+                    <div class="text-sm font-medium text-slate-400 uppercase tracking-wide">eNPS Score Growth</div>
+                </div>
+                <div class="pt-4 md:pt-0">
+                    <div class="text-4xl md:text-5xl font-black text-brand-500 mb-2">150 → 800</div>
+                    <div class="text-sm font-medium text-slate-400 uppercase tracking-wide">Workforce Scaled</div>
+                </div>
+                <div class="pt-4 md:pt-0">
+                    <div class="text-4xl md:text-5xl font-black text-white mb-2">$1.2M+</div>
+                    <div class="text-sm font-medium text-slate-400 uppercase tracking-wide">Recruiting Fees Saved</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Competencies Matrix -->
+    <section id="competencies" class="py-24 bg-white border-b border-slate-200">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h2 class="text-xs font-bold uppercase tracking-widest text-brand-600 mb-2">Strategic Capability</h2>
+                <h3 class="text-3xl font-bold text-navy-950">Areas of Executive Mastery</h3>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div class="p-8 rounded-2xl bg-slate-50 border border-slate-200 hover:shadow-lg transition">
+                    <div class="w-12 h-12 rounded-xl bg-brand-100 text-brand-600 flex items-center justify-center text-xl mb-6">
+                        <i class="fa-solid fa-sitemap"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-navy-900 mb-3">Org Design & Scaling</h4>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                        Comprehensive workforce planning, span-of-control auditing, career ladder frameworks, and cross-functional restructuring during hypergrowth or M&A transitions.
+                    </p>
+                    <ul class="text-xs font-medium text-slate-500 space-y-2">
+                        <li><i class="fa-solid fa-check text-brand-600 mr-2"></i>Job Leveling & Banding</li>
+                        <li><i class="fa-solid fa-check text-brand-600 mr-2"></i>Succession Mapping</li>
+                    </ul>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="p-8 rounded-2xl bg-slate-50 border border-slate-200 hover:shadow-lg transition">
+                    <div class="w-12 h-12 rounded-xl bg-brand-100 text-brand-600 flex items-center justify-center text-xl mb-6">
+                        <i class="fa-solid fa-chart-line"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-navy-900 mb-3">Performance & Retention</h4>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                        Replacing outdated annual reviews with continuous, OKR-driven feedback systems that link employee growth directly to business profitability.
+                    </p>
+                    <ul class="text-xs font-medium text-slate-500 space-y-2">
+                        <li><i class="fa-solid fa-check text-brand-600 mr-2"></i>Continuous Feedback Loops</li>
+                        <li><i class="fa-solid fa-check text-brand-600 mr-2"></i>Manager Calibration Clinics</li>
+                    </ul>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="p-8 rounded-2xl bg-slate-50 border border-slate-200 hover:shadow-lg transition">
+                    <div class="w-12 h-12 rounded-xl bg-brand-100 text-brand-600 flex items-center justify-center text-xl mb-6">
+                        <i class="fa-solid fa-scale-balanced"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-navy-900 mb-3">Total Rewards & Analytics</h4>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                        Market-indexed compensation benchmarking (Radford/Mercer), incentive design, predictive attrition modeling, and comprehensive benefit restructuring.
+                    </p>
+                    <ul class="text-xs font-medium text-slate-500 space-y-2">
+                        <li><i class="fa-solid fa-check text-brand-600 mr-2"></i>Predictive Flight Risk Models</li>
+                        <li><i class="fa-solid fa-check text-brand-600 mr-2"></i>Pay Equity Analysis</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Studies Section -->
+    <section id="casestudies" class="py-24 bg-slate-50">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h2 class="text-xs font-bold uppercase tracking-widest text-brand-600 mb-2">Proven Track Record</h2>
+                <h3 class="text-3xl font-bold text-navy-950">Strategic Case Studies</h3>
+                <p class="text-slate-600 text-sm mt-3">Evidence-based interventions executed using the STAR methodology.</p>
+            </div>
+
+            <div class="space-y-8">
+                <!-- Case Study 1 -->
+                <div class="bg-white p-8 md:p-10 rounded-2xl border border-slate-200 shadow-sm">
+                    <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6 pb-6 border-b border-slate-100">
+                        <div>
+                            <span class="text-xs font-bold uppercase tracking-wider text-brand-600">Case Study 01: Hypergrowth Scaling</span>
+                            <h4 class="text-2xl font-bold text-navy-950 mt-1">Expanding Technical Headcount from 140 to 325 Post-Series B</h4>
+                        </div>
+                        <div class="flex gap-2">
+                            <span class="px-3 py-1 rounded-full bg-slate-100 text-slate-600 text-xs font-medium">Workforce Planning</span>
+                            <span class="px-3 py-1 rounded-full bg-slate-100 text-slate-600 text-xs font-medium">Talent Acquisition</span>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm">
+                        <div>
+                            <strong class="text-navy-900 block mb-1">Challenge:</strong>
+                            <p class="text-slate-600">Severe engineering talent shortage jeopardized the product roadmap. Existing agency-dependent hiring incurred $38,000+ per hire with a 68-day time-to-fill.</p>
+                        </div>
+                        <div>
+                            <strong class="text-navy-900 block mb-1">Intervention:</strong>
+                            <p class="text-slate-600">Established an in-house recruitment engine, implemented structured competency-based interviewing, and redesigned onboarding with a 30-60-90 day milestone system.</p>
+                        </div>
+                        <div class="bg-brand-50/60 p-4 rounded-xl border border-brand-100">
+                            <strong class="text-brand-800 block mb-1">Measured Impact:</strong>
+                            <ul class="text-brand-900 space-y-1 font-medium">
+                                <li>• Time-to-fill slashed from 68 to 37 days.</li>
+                                <li>• Saved $420,000+ in agency commissions.</li>
+                                <li>• 94% 90-day retention rate for technical cohorts.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Case Study 2 -->
+                <div class="bg-white p-8 md:p-10 rounded-2xl border border-slate-200 shadow-sm">
+                    <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6 pb-6 border-b border-slate-100">
+                        <div>
+                            <span class="text-xs font-bold uppercase tracking-wider text-brand-600">Case Study 02: Performance Transformation</span>
+                            <h4 class="text-2xl font-bold text-navy-950 mt-1">Overhauling Archaic Appraisals to Stem High-Performer Churn</h4>
+                        </div>
+                        <div class="flex gap-2">
+                            <span class="px-3 py-1 rounded-full bg-slate-100 text-slate-600 text-xs font-medium">Total Rewards</span>
+                            <span class="px-3 py-1 rounded-full bg-slate-100 text-slate-600 text-xs font-medium">Retention</span>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm">
+                        <div>
+                            <strong class="text-navy-900 block mb-1">Challenge:</strong>
+                            <p class="text-slate-600">A 29% attrition rate among Senior Engineers caused by opaque promotions, lack of clear progression, and annual, backward-looking reviews.</p>
+                        </div>
+                        <div>
+                            <strong class="text-navy-900 block mb-1">Intervention:</strong>
+                            <p class="text-slate-600">Designed a dual-track career progression matrix (Individual Contributor vs. People Manager). Rolled out quarterly agile performance reviews and manager calibration sessions.</p>
+                        </div>
+                        <div class="bg-brand-50/60 p-4 rounded-xl border border-brand-100">
+                            <strong class="text-brand-800 block mb-1">Measured Impact:</strong>
+                            <ul class="text-brand-900 space-y-1 font-medium">
+                                <li>• Regrettable attrition dropped from 29% to 11%.</li>
+                                <li>• Internal promotions surged by 41%.</li>
+                                <li>• Manager feedback rating increased from 61% to 89%.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack & Credentials -->
+    <section id="tech" class="py-20 bg-white border-t border-slate-200">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h3 class="text-2xl font-bold text-navy-950 mb-4">Enterprise Systems & HR Tech Stack</h3>
+                    <p class="text-slate-600 text-sm mb-6 leading-relaxed">
+                        Data-first practitioner leveraging modern HCM, ATS, and business intelligence platforms to convert subjective team dynamics into actionable operational intelligence.
+                    </p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1.5 rounded-lg bg-slate-100 text-slate-800 text-xs font-semibold">Workday</span>
+                        <span class="px-3 py-1.5 rounded-lg bg-slate-100 text-slate-800 text-xs font-semibold">BambooHR</span>
+                        <span class="px-3 py-1.5 rounded-lg bg-slate-100 text-slate-800 text-xs font-semibold">Lattice</span>
+                        <span class="px-3 py-1.5 rounded-lg bg-slate-100 text-slate-800 text-xs font-semibold">Greenhouse</span>
+                        <span class="px-3 py-1.5 rounded-lg bg-slate-100 text-slate-800 text-xs font-semibold">Culture Amp</span>
+                        <span class="px-3 py-1.5 rounded-lg bg-slate-100 text-slate-800 text-xs font-semibold">Tableau</span>
+                        <span class="px-3 py-1.5 rounded-lg bg-slate-100 text-slate-800 text-xs font-semibold">ADP Workforce Now</span>
+                        <span class="px-3 py-1.5 rounded-lg bg-slate-100 text-slate-800 text-xs font-semibold">Rippling</span>
+                    </div>
+                </div>
+
+                <div class="bg-slate-50 p-8 rounded-2xl border border-slate-200">
+                    <h4 class="text-lg font-bold text-navy-950 mb-4">Professional Certifications</h4>
+                    <ul class="space-y-4">
+                        <li class="flex items-start gap-3">
+                            <i class="fa-solid fa-certificate text-brand-600 mt-1"></i>
+                            <div>
+                                <span class="font-bold text-sm text-navy-900 block">SHRM-SCP®</span>
+                                <span class="text-xs text-slate-500">Society for Human Resource Management - Senior Certified Professional</span>
+                            </div>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fa-solid fa-certificate text-brand-600 mt-1"></i>
+                            <div>
+                                <span class="font-bold text-sm text-navy-900 block">SPHR®</span>
+                                <span class="text-xs text-slate-500">Senior Professional in Human Resources (HRCI)</span>
+                            </div>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fa-solid fa-certificate text-brand-600 mt-1"></i>
+                            <div>
+                                <span class="font-bold text-sm text-navy-900 block">People Analytics Certified Specialist</span>
+                                <span class="text-xs text-slate-500">Academy to Innovate HR (AIHR)</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Footer -->
+    <footer id="contact" class="bg-navy-950 text-white py-20">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <h3 class="text-3xl font-bold mb-4">Let’s Discuss Your People Strategy</h3>
+            <p class="text-slate-400 text-sm max-w-xl mx-auto mb-8">
+                Seeking a strategic HR partner to optimize your workforce productivity, lead culture through rapid change, or architect scalable people systems?
+            </p>
+            <div class="flex flex-wrap justify-center gap-4 mb-12">
+                <a href="mailto:your.name@email.com" class="px-6 py-3 rounded-lg bg-brand-600 hover:bg-brand-500 text-white font-medium transition flex items-center gap-2">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>your.name@email.com</span>
+                </a>
+                <a href="https://linkedin.com" target="_blank" class="px-6 py-3 rounded-lg bg-navy-800 hover:bg-navy-900 border border-slate-700 text-white font-medium transition flex items-center gap-2">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <span>Connect on LinkedIn</span>
+                </a>
+            </div>
+            <p class="text-xs text-slate-600">
+                &copy; <span id="year"></span> [Your Name], SHRM-SCP. All rights reserved. Built for executive presentation.
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
